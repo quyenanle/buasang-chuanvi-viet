@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+}
+
+header {
+  background: rgba(129, 199, 132, 0.9); /* xanh lá nhạt */
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: #1b5e20;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  color: #2e7d32;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: rgba(104, 159, 56, 0.85);
+}
+
+nav a {
+  color: white;
+  padding: 12px 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: rgba(85, 139, 47, 0.9);
+  border-radius: 5px;
+}
+
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
